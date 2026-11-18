@@ -1,0 +1,32 @@
+# Local working folders
+/@MixABreak/
+/@tag_mixamo/
+/Claude outputs/
+/_vanilla/
+/fbx/
+/new_rtm/
+/rtm/
+/sources/
+
+# Local files
+/armarig.blend
+/config_from_pbo.cpp
+/rebuild.bat
+/make_pbo.py
+
+# Generated / third-party assets (Mixamo raw files must not be redistributed)
+*.fbx
+*.rtm
+*.pbo
+*.p3d
+*.blend
+*.blend1
+
+# Signing keys - never commit
+*.biprivatekey
+*.bisign
+
+# Python / logs
+__pycache__/
+*.pyc
+*.rpt
